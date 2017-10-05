@@ -1,4 +1,6 @@
-
+$(document).ready(function(){
+	$('.appear-east,.appear-west,.appear-north,.appear-south,.appear-normal').scrollEffect();
+})
 $.fn.extend({
 	scrollEffect: function()
 	{
