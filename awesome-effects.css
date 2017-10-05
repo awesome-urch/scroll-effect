@@ -1,3 +1,11 @@
+.appear-normal,.appear-north,.appear-south,.appear-east,.appear-west
+{
+	-moz-transition:all 0.8s;
+	-ms-transition:all 0.8s;
+	-webkit-transition:all 0.8s;
+	-o-transition:all 0.8s;
+	transition:all 0.8s;
+}
 .reset_style1
 {
 	-webkit-transform:translate(0,0) !important;
