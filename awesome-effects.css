@@ -1,0 +1,41 @@
+.reset_style1
+{
+	-webkit-transform:translate(0,0) !important;
+	-moz-transform:translate(0,0) !important;
+	-o-transform:translate(0,0) !important;
+	transform:translate(0,0) !important;
+	opacity:1 !important;
+}
+.appear-normal
+{
+  opacity:0;
+}
+.appear-south
+{
+	transform:translate(0,-100px);
+	-webkit-transform:translate(0,-100px);
+	-moz-transform:translate(0,-100px);
+	opacity:0;
+}
+.appear-east
+{
+	transform:translate(-100px,0);
+	-webkit-transform:translate(-100px,0);
+	-moz-transform:translate(-100px,0);
+	opacity:0;
+}
+
+.appear-north
+{
+	transform:translate(0,100px);
+	-webkit-transform:translate(0,100px);
+	-moz-transform:translate(0,100px);
+	opacity:0;
+}
+.appear-west
+{
+	transform:translate(100px,0);
+	-webkit-transform:translate(100px,0);
+	-moz-transform:translate(100px,0);
+	opacity:0;
+}
